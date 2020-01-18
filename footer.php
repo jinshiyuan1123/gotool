@@ -3,7 +3,7 @@ if ($id) {mores($as['tools_url'],$navs,Tools_url.'/'.$CONF['config']['TOOLS_T'])
 ?>
 <!--footer start-->
 <footer class="footer text-center">
-	<div>
+  <div>
 
     Copyright <a href="#" target="_blank">Youngxj</a> 2018 - <?php echo $tools_settings['icp'];?>  <a href="<?php echo Tools_url;?>/log.php" target="_blank">时间轴</a> <a href="<?php echo Tools_url;?>/about.php" target="_blank">关于</a>
   </div>
@@ -16,13 +16,14 @@ if ($id) {mores($as['tools_url'],$navs,Tools_url.'/'.$CONF['config']['TOOLS_T'])
   <?php echo $tools_settings['footer'];?>
 </div>
 <div id="f_list">
-  <a rel="noopener noreferrer" target="_blank" class="btn qq-qun copy-btn js-tip" title="QQ群" href="https://jq.qq.com/?_wv=1027&k=5mzAEw0" original-title="QQ群: 937479866"><i class="fa fa-qq "></i></a>
-  <a rel="noopener noreferrer" target="_blank" class="btn weibo js-tip" href="http://www.xd0.com/" title="微博"><i class="fa fa-weibo"></i></a>
+
+  <a rel="noopener noreferrer" target="_blank" class="btn qq-qun copy-btn js-tip" title="QQ" href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2824030364&website=www.oicqzone.com" original-title="Q: 2824030364"><i class="fa fa-qq "></i></a>
+ 
   <?php if($tools_settings['templates']==0){?><a rel="noopener noreferrer" target="_blank" class="btn weibo js-tip" href="javascript:temp();" title="切换主题"><i class="fa fa-television"></i></a><?php }?>
   <?php if($tools_priority=='1'){?>
     <a rel="noopener noreferrer" target="_blank" class="btn weibo js-tip" href="javascript:priority();" title="切换排序"><i class="fa fa-cog fa-spin"></i></a>
   <?php }?>
-  <a rel="noopener noreferrer" target="_blank" class="btn github js-tip" href="http://www.xd0.com/"><i class="fa fa-github-alt"></i></a>
+ 
   <a class="btn gotop js-tip" href="javascript:gotop();" title="返回顶部" id="gotop"><i class="fa fa-arrow-up"></i></a>
 </div>
 <style type="text/css">
